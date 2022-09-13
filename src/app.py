@@ -18,7 +18,7 @@ def load_data(path):
     return df
 
 # df = pd.read_csv("share-of-individuals-using-the-internet.csv")
-df = load_data(path="./../data/share-of-individuals-using-the-internet.csv")
+df = load_data(path="./data/share-of-individuals-using-the-internet.csv")
 mf = df[df['Year'] == 2017]
 
 
